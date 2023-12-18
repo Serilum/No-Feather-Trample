@@ -6,9 +6,9 @@ logoFile="icon.png"
 
 [[mods]]
 modId="nofeathertrample"
-version="1.0"
+version="1.1"
 displayName="No Feather Trample"
-displayURL="https://curseforge.com/minecraft/mc-mods/no-feather-trample"
+displayURL="https://serilum.com/mod/no-feather-trample"
 authors="Rick South"
 description='''Prevents farm land from being trampled while wearing Feather Falling or having the Slow Falling effect.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.nofeathertrample]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.16,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.nofeathertrample]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.19.2]"
     ordering="NONE"
