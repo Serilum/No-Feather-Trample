@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nofeathertrample",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "No Feather Trample",
   "description": "Prevents farm land from being trampled while wearing Feather Falling or having the Slow Falling effect.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.nofeathertrample.ModFabric" ] },
   "mixins": [
-    "nofeathertrample_fabric.mixins.json"
+    "nofeathertrample.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17",
-    "collective": ">=7.21"
+    "collective": ">=7.26"
   },
 
   "custom": {
