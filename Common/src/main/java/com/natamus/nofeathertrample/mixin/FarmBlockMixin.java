@@ -1,4 +1,4 @@
-package com.natamus.nofeathertrample.neoforge.mixin;
+package com.natamus.nofeathertrample.mixin;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
