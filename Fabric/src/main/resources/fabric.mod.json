@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nofeathertrample",
-  "version": "1.2",
+  "version": "1.3",
 
   "name": "No Feather Trample",
   "description": "Prevents farm land from being trampled while wearing Feather Falling or having the Slow Falling effect.",
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.54"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -47,12 +47,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
