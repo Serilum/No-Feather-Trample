@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="nofeathertrample"
-version="1.2"
+version="1.3"
 displayName="No Feather Trample"
 displayURL="https://serilum.com/mod/no-feather-trample"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Prevents farm land from being trampled while wearing Feather Fall
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., Nahuel Fernandez, Shana Gitnick, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.nofeathertrample]]
     modId="collective"
     mandatory=true
-    versionRange="[7.61,)"
+    versionRange="[7.78,)"
     ordering="NONE"
     side="BOTH"
 
