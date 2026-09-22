@@ -17,8 +17,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = FarmlandBlock.class, priority = 1001)
 public class FarmlandBlockMixin {
-	@Inject(method = "turnToDirt(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", at = @At(value = "HEAD"), cancellable = true)
-	private static void turnToDirt(Entity entity, BlockState blockState, Level level, BlockPos blockPos, CallbackInfo ci) {
+	@Inject(method = "turnToBaseBlock(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", at = @At(value = "HEAD"), cancellable = true)
+	private void turnToBaseBlock(Entity entity, BlockState blockState, Level level, BlockPos blockPos, CallbackInfo ci) {
 		if (entity instanceof LivingEntity livingEntity) {
 			if (EnchantmentHelper.getEnchantmentLevel(level.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FEATHER_FALLING), livingEntity) > 0 || livingEntity.hasEffect(MobEffects.SLOW_FALLING)) {
 				ci.cancel();
