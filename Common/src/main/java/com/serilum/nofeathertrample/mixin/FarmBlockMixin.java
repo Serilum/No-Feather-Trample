@@ -1,4 +1,4 @@
-package com.natamus.nofeathertrample.mixin;
+package com.serilum.nofeathertrample.mixin;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.effect.MobEffects;
