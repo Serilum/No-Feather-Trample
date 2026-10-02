@@ -1,4 +1,4 @@
-package com.natamus.nofeathertrample;
+package com.serilum.nofeathertrample;
 
 
 public class ModCommon {
