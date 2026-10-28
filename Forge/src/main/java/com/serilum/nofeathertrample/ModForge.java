@@ -1,8 +1,8 @@
-package com.natamus.nofeathertrample;
+package com.serilum.nofeathertrample;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.nofeathertrample.util.Reference;
+import com.serilum.nofeathertrample.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
